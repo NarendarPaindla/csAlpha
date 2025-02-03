@@ -1,0 +1,17 @@
+
+<%! 
+  private int count=0;
+  public int incrementCount(){
+	  return ++count;
+  }
+%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Count: <%= incrementCount() %></h2>
+<% out.println("Welcome"); %>
+</body>
+</html>
