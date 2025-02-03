@@ -75,6 +75,9 @@
 </div>
 <button type="submit" class="btn">Login</button>
 </form>
+<p style="margin-top: 15px;">
+Don't have an account?<a href="register.jsp">Register here</a>
+</p>
 </div>
 </body>
 </html>

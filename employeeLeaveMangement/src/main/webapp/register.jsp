@@ -4,14 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>Register</title>
 <style>
- body {
+body {
         font-family: Arial, sans-serif;
         background-color: #f8f9fa;
       }
       .container {
-        max-width: 400px;
+        max-width: 600px;
         margin: 50px auto;
         background: #fff;
         padding: 20px;
@@ -63,8 +63,12 @@
 </head>
 <body>
 <div class="container">
-<h2>Login</h2>
-<form action="login" method="post">
+<h2>Register</h2>
+<form action="register" method="post">
+<div>
+<label class="form-label">Username:</label>
+<input type="text" name="username" class="form-control" required>
+</div>
 <div>
 <label class="form-label">Email</label>
 <input type="email" name="email" class="form-control" required>
@@ -73,10 +77,18 @@
 <label class="form-label">Password</label>
 <input type="password" name="password" class="form-control" required>
 </div>
-<button type="submit" class="btn">Login</button>
+<div>
+<label class="form-label">Role:</label>
+<select name="role" class="form-control" required>
+<option value="employee">Employee</option>
+<option value="manager">Manager</option>
+<option value="admin">Admin</option>
+</select>
+</div>
+<button type="submit" class="btn">Register</button>
 </form>
 <p style="margin-top: 15px;">
-Don't have an account?<a href="register.jsp">Register here</a>
+Already registered? <a href="login.jsp">Login here</a>
 </p>
 </div>
 </body>
