@@ -1,0 +1,33 @@
+package com.example.servlet;
+
+import java.io.IOException;
+import java.sql.*;
+
+import com.example.util.DBUtil;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/register")
+public class RegisterServlet extends HttpServlet{
+   protected void doPost(HttpServletRequest request,HttpServletResponse response)throws ServletException,IOException {
+	   String username=request.getParameter("username");
+	   String email=request.getParameter("email");
+	   String password=request.getParameter("password");
+	   String role=request.getParameter("role");
+	   try(Connection conn=DBUtil.getConnection()){
+		   String sql="INSERT INTO users(username,email,password,role) VALUES (?,?,?,?)";
+		   PreparedStatement ps=conn.prepareStatement(sql);
+		   ps.setString(1,username);
+		   ps.setString(2,email);
+		   ps.setString(3,password);
+		   ps.setString(4,role);
+		   ps.executeUpdate();
+	   }catch(Exception e) {
+		   e.printStackTrace();
+	   }
+   }
+}

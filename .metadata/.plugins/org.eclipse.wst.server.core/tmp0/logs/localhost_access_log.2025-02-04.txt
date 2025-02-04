@@ -1,0 +1,15 @@
+127.0.0.1 - - [04/Feb/2025:09:38:43 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:09:38:44 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 1859
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:09:38:44 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:09:42:55 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2232
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:02:07 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2234
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:02:28 +0530] "POST /employeeLeaveMangement/register HTTP/1.1" 404 787
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:03:53 +0530] "POST /employeeLeaveMangement/register HTTP/1.1" 404 787
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:03:58 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2234
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:03:59 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2234
+127.0.0.1 - - [04/Feb/2025:10:06:48 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:06:49 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2234
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:07:08 +0530] "POST /employeeLeaveMangement/register HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:07:09 +0530] "GET /employeeLeaveMangement/login.jsp?msg=Registration%20successful!%20Please%20log%20in. HTTP/1.1" 200 1944
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:17:57 +0530] "POST /employeeLeaveMangement/login HTTP/1.1" 404 784
+0:0:0:0:0:0:0:1 - - [04/Feb/2025:10:18:03 +0530] "POST /employeeLeaveMangement/login HTTP/1.1" 404 784

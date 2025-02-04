@@ -64,6 +64,9 @@ body {
 <body>
 <div class="container">
 <h2>Register</h2>
+<% if(request.getParameter("msg")!=null){%>
+<div class="alert"><%= request.getParameter("msg") %></div>
+<%} %>
 <form action="register" method="post">
 <div>
 <label class="form-label">Username:</label>

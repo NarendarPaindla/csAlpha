@@ -2,3 +2,8 @@
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:09:52:44 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 313
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:09:55:48 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 522
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:09:57:46 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 1758
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:10:08:13 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 1847
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:10:14:15 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 987
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:10:16:25 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2232
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:10:16:27 +0530] "GET /employeeLeaveMangement/login.jsp HTTP/1.1" 200 1859
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:10:16:30 +0530] "GET /employeeLeaveMangement/register.jsp HTTP/1.1" 200 2232

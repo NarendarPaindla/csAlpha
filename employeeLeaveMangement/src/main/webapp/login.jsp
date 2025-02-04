@@ -64,6 +64,9 @@
 <body>
 <div class="container">
 <h2>Login</h2>
+<% if(request.getParameter("msg") != null) { %>
+         <div class="alert"><%= request.getParameter("msg") %></div>
+      <% } %>
 <form action="login" method="post">
 <div>
 <label class="form-label">Email</label>
