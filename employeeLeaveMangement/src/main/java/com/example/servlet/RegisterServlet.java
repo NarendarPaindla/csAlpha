@@ -28,7 +28,7 @@ public class RegisterServlet extends HttpServlet {
             response.sendRedirect("login.jsp?msg=Registration successful! Please log in.");
         } catch(Exception e) {
             e.printStackTrace();
-            response.sendRedirect("register.jsp?msg=Error in registration");
+            response.sendRedirect("register.jsp?msg=Error in registration or already Registered");
         }
     }
 }
